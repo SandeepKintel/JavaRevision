@@ -15,6 +15,5 @@ public class IncedoSecondLargestNum {
 		al.sort(null);
 		System.out.println(al.reversed().get(1));
 		System.out.println(al.get(al.size()-2));
-
 }
 }

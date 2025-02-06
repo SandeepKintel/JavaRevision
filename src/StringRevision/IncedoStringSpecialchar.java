@@ -1,6 +1,6 @@
 package StringRevision;
 
-public class IncedoStringRev {
+public class IncedoStringSpecialchar {
 	public static void main(String[] args) {
 	   
 	        String input="The Sky Blue";
