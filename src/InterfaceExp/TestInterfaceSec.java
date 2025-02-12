@@ -13,7 +13,7 @@ abstract class Google2{
 
 public class TestInterfaceSec extends Amazon2{
 
-}
+
 
 @Override
 void Show() {
@@ -25,4 +25,5 @@ void Show() {
 void Print() {
 	// TODO Auto-generated method stub
 	
+}
 }

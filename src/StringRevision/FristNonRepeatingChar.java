@@ -1,15 +1,17 @@
 package StringRevision;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class FristNonRepeatingChar {
 	public static void main(String[] args) {
 		
-		String input = "automation";
+		String input = "aautommationn";
 		
 		int count[] = new int[128];
-		List<Character> li = new ArrayList<Character>();
+		//Set<Character> li = new HashSet<Character>();
+		ArrayList<Character> li = new ArrayList<Character>();
 		
 		for(int i=0; i<input.length(); i++)
 		{
@@ -19,7 +21,10 @@ public class FristNonRepeatingChar {
 			{
 				li.add(c);
 			}
+			count[c]++;
 		}
+		System.out.println(li + " " + li.get(0));
+		
 	}
 
 }

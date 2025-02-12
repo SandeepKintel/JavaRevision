@@ -24,8 +24,11 @@ public class IncedoRepeatedChar {
         		
         	}
         	
+        	
         	charCount[c]++;
         }
+        
+        System.out.println(uniqueCharacters);
         
         Collections.sort(uniqueCharacters, Collections.reverseOrder());
         System.out.println(uniqueCharacters);
