@@ -28,7 +28,7 @@ public class EvenOddSortingArray {
 			}
 		}
 		
-		System.out.println(Arrays.toString(input));
+		System.out.println("result " +Arrays.toString(input));
 	}
 
 }
