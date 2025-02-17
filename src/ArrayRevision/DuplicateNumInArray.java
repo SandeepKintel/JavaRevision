@@ -20,7 +20,7 @@ public class DuplicateNumInArray {
 			
 		}
 		
-		System.out.println(ar);
+		System.out.println("duplicate numbers are "+ar);
 	}
 
 }
