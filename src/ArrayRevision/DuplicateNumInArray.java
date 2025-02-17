@@ -21,6 +21,7 @@ public class DuplicateNumInArray {
 		}
 		
 		System.out.println("duplicate numbers are "+ar);
+		System.out.println("test");
 	}
 
 }
