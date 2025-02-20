@@ -15,11 +15,8 @@ public class CommonInTwoArray {
 			{
 				if(array01[i]==array02[j])
 				{
-					while(ar.contains(array01[i]=2))
-					{
-						ar.add(array01[i]);
-					}
-					
+					if(ar.contains(array01[i]))
+					ar.add(array01[i]);
 
 					
 				}
